@@ -14,6 +14,7 @@ This is an unofficial PyTorch implementation of paper [A Closed-form Solution to
 ## Style Transfer
 
 You can test model in [demo.ipynb](https://github.com/boomb0om/PyTorch-OptimalStyleTransfer/blob/main/demo.ipynb) or use a script:
+
 `python test.py --content=content/brad_pitt.jpg --style=style/picasso_self_portrait.jpg `
 
 
