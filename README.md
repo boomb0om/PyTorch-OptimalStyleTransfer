@@ -4,9 +4,9 @@ This is an **unofficial** PyTorch implementation of paper [A Closed-form Solutio
 1. [Colab demo](https://colab.research.google.com/drive/1Y8epP-g2MMGI1Ri-lvOttIO_ebdIXORA?usp=sharing) <a href="https://colab.research.google.com/drive/1k2Zod6kSHEvraybHl50Lys0LerhyTMCo?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
 2. [Official implementation](https://github.com/lu-m13/OptimalStyleTransfer) (Lua)
 
-Some examples:![](C:\Users\igore\Desktop\sberwork\style transfer\PyTorch-OptimalStyleTransfer\imgs\example_results.png)
+Some examples:![](https://raw.githubusercontent.com/boomb0om/PyTorch-OptimalStyleTransfer/main/imgs/example_results.png)
 
-Comparison with other methods:![](C:\Users\igore\Desktop\sberwork\style transfer\PyTorch-OptimalStyleTransfer\imgs\comparison_small.png)
+Comparison with other methods:![](https://raw.githubusercontent.com/boomb0om/PyTorch-OptimalStyleTransfer/main/imgs/comparison_small.png)
 
 ## Installation
 
