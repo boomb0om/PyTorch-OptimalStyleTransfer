@@ -1,7 +1,7 @@
 # PyTorch-OptimalStyleTransfer
 This is an **unofficial** PyTorch implementation of paper [A Closed-form Solution to Universal Style Transfer - ICCV 2019](https://arxiv.org/abs/1906.00668)
 
-1. [Colab demo](https://colab.research.google.com/drive/1Y8epP-g2MMGI1Ri-lvOttIO_ebdIXORA?usp=sharing) <a href="https://colab.research.google.com/drive/1k2Zod6kSHEvraybHl50Lys0LerhyTMCo?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
+1. [Colab demo](https://colab.research.google.com/drive/1Y8epP-g2MMGI1Ri-lvOttIO_ebdIXORA?usp=sharing) <a href="https://colab.research.google.com/drive/1Y8epP-g2MMGI1Ri-lvOttIO_ebdIXORA?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
 2. [Official implementation](https://github.com/lu-m13/OptimalStyleTransfer) (Lua)
 
 Some examples:![](https://raw.githubusercontent.com/boomb0om/PyTorch-OptimalStyleTransfer/main/imgs/example_results.png)
