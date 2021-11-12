@@ -64,7 +64,6 @@ class Decoder(nn.Module):
         else:
             raise ValueError('level should be between 1~5')
             
-        self.net.type(torch.float64)
         if pretrained_path is not None:
             self.net.load_state_dict(torch.load(pretrained_path, map_location=lambda storage, loc: storage))
 

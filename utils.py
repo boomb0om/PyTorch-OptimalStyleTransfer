@@ -8,7 +8,7 @@ transformer_to_image = transforms.ToPILImage()
 
 def img2tensor(pil_image):
     tensor = transformer_to_tensor(pil_image)
-    return tensor.unsqueeze(0).type(dtype=torch.float64)
+    return tensor.unsqueeze(0)
 
 def tensor2img(tensor):
     tensor = tensor.squeeze(0).cpu().clamp(0,1)

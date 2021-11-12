@@ -54,7 +54,7 @@ class Encoder(nn.Module):
     def __init__(self, pretrained_path='models/conv5_1.pth'):
         super().__init__()
         self.net = conv5_1
-        self.net.type(torch.float64)
+        
         if pretrained_path is not None:
             self.net.load_state_dict(torch.load(pretrained_path, map_location=lambda storage, loc: storage))
 

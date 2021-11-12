@@ -28,6 +28,9 @@ def sqrt_inv_matrix(mtx):
     
 
 def feature_transform(content_feature, style_feature, alpha=1.0):
+    content_feature = content_feature.type(dtype=torch.float64)
+    style_feature = style_feature.type(dtype=torch.float64)
+    
     content_feature1 = content_feature.squeeze(0)
     cDim = content_feature1.size()
     content_feature1 = content_feature1.reshape(cDim[0], -1)
@@ -52,4 +55,4 @@ def feature_transform(content_feature, style_feature, alpha=1.0):
     res_feature = target_feature.reshape(cDim[0], cDim[1], cDim[2]).unsqueeze(0).float()
     
     res_feature = alpha * res_feature + (1.0 - alpha) * content_feature
-    return res_feature
+    return res_feature.type(dtype=torch.float32)
